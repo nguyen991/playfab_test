@@ -1,23 +1,18 @@
 {
-    "compilerOptions": {
-      "target": "ES2017",
-      "module": "commonjs",
-      "lib": ["es2017", "dom"],
-      "allowJs": false,
-      "outDir": "./",
-      "rootDir": "src",
-      "noImplicitAny": true,
-      "resolveJsonModule": true,
-      "esModuleInterop": true,
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "sourceMap": false,
-      "alwaysStrict": true,
-    },
-    "exclude": [
-      "node_modules",
-      "dist",
-      "./*.js"
-    ]
-  }
-  
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "commonjs",
+    "lib": ["es2017", "dom"],
+    "allowJs": false,
+    "outDir": "lib",
+    "rootDir": "src",
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": false,
+    "alwaysStrict": true
+  },
+  "exclude": ["node_modules", "lib", "./*.js"]
+}
