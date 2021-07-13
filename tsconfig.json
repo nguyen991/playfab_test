@@ -4,7 +4,7 @@
     "module": "commonjs",
     "lib": ["es2017", "dom"],
     "allowJs": false,
-    "outDir": "lib",
+    "outDir": "./",
     "rootDir": "src",
     "noImplicitAny": true,
     "resolveJsonModule": true,
